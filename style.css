@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+button,
+a {
+    font-size: 1.15rem;
+    /*important*/
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.common-headings {
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01;
+
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+/*navbar style*/
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(191, 191, 191);
+}
+
+a:active {
+    color: rgb(219, 219, 219);
+}
+
+/*hero section start */
+
+.hero_photo_section {
+    max-width: 100%;
+    height: auto;
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+.bg-main {
+    height: 80vh;
+    position: relative;
+}
+
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-color {
+    background-color: rgb(31, 31, 31);
+}
+
+.text-light-grey {
+    color: rgb(228, 228, 228);
+}
+
+/* hero section end */
+
+/* skill section start */
+.services-section {
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(74, 74, 221);
+    color: white;
+}
+
+.card-box{
+    box-shadow: 1px 1px 1px rgb(193, 193, 193);
+}
+.card-box:hover {
+    box-shadow: 2px 2px 4px rgb(46, 46, 46);
+}
+
+/* more info section style */
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.2),rgba(22,22,22,0.9)), url("https://img.mipon.org/wp-content/uploads/2019/07/13060822/death-note-301-1024x578.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow:hidden;
+}
+
+/* skill section end */
+
+/* curve art */
+.custom-shape-divider-bottom-1698990456 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698990456 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-bottom-1698990456 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* end */
