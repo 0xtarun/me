@@ -150,3 +150,8 @@ a:active {
     background-color: rgb(227, 227, 227);
     color:rgb(40, 40, 40);
 }
+
+.contact-section .form-section{
+    width: 50%;
+    
+}
