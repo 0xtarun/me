@@ -155,3 +155,11 @@ a:active {
     width: 50%;
     
 }
+
+
+
+/*custom card*/
+.custom-card {
+    width: 300px; /* Change this to your desired width */
+    height: 500px; /* Change this to your desired height */
+}
